@@ -1,11 +1,10 @@
 // TODO: write code here
 
 // comment this to pass build
-const unusedVariable = "variable";
+import Playground from './playground/Playground';
 
-// for demonstration purpose only
-export default function demo(value) {
-  return `Demo: ${value}`;
-}
+document.addEventListener('DOMContentLoaded', () => {
+  const playingArea = new Playground(document.querySelector('.playground'));
 
-console.log("app.js included");
+  setInterval(playingArea.randomAppear, 1000);
+})

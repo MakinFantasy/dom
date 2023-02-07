@@ -1,0 +1,21 @@
+.playground {
+    display: flex;
+    flex-wrap: wrap;
+    width: 620px;
+    margin: 0 auto;
+    list-style-type: none;
+  }
+  
+  .playground__item {
+    width: 20%;
+    height: 124px;
+    margin: 5px;
+    background-color: rgb(71, 66, 65);
+    border: 1px solid cyan;
+    border-radius: 5px;
+  }
+  
+  .playground__img {
+    width: 124px;
+    height: 124px;
+  }
