@@ -7,3 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setInterval(playingArea.randomAppear, 1000);
 });
+
+// for demonstration purpose only
+export default function demo(value) {
+  return `Demo: ${value}`;
+}
+
+console.log("app.js included");
